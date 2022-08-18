@@ -10,8 +10,8 @@
   ],
   "contact": {
     "homepage": "https://www.planetminecraft.com/member/deesaster/",
-    "issues": "",
-    "sources": ""
+    "issues": "https://github.com/DeesasterComposer/Dees-Craftable-Chainmail/issues",
+    "sources": "https://github.com/DeesasterComposer/Dees-Craftable-Chainmail"
   },
 
   "license": "MIT",
