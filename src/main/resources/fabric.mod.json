@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "deescraftablechainmail",
+  "version": "${version}",
+
+  "name": "Dee's Craftable Chainmail",
+  "description": "Adds a balanced way to make chainmail armor using chainmail sheets.",
+  "authors": [
+    "Deesaster_"
+  ],
+  "contact": {
+    "homepage": "https://www.planetminecraft.com/member/deesaster/",
+    "issues": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/deescraftablechainmail/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.deesaster.deescraftablechainmail.DeesCraftableChainmail"
+    ],
+    "client": [
+      "net.deesaster.deescraftablechainmail.DeesCraftableChainmailClient"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
